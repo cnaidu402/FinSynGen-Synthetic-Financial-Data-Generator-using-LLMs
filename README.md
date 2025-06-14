@@ -1,0 +1,1 @@
+# FinSynGen-Synthetic-Financial-Data-Generator-using-LLMs
