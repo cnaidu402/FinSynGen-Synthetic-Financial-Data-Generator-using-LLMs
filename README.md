@@ -42,3 +42,39 @@ This project leverages `yfinance` for real data collection and GPT-powered gener
 
 ```plaintext
 Generate synthetic log returns for a high-risk crypto asset with extreme volatility and fat tails over a 60-day period.
+## 📁 Files & Metadata
+asset_metadata.csv – Asset sector, type, risk class
+
+synthetic_data_responses.csv – Generated log returns
+
+Presentation.pptx – Architecture, methodology, and visual diagnostics
+
+## 📈 Use Cases
+Stress testing of new asset portfolios
+
+Bootstrapping data for ML models
+
+Scenario analysis for strategic financial planning
+
+Safe generation of data for compliance-sensitive environments
+
+## 🚧 Limitations
+LLMs may struggle with accurate tail modeling
+
+No multivariate correlation across assets
+
+Requires iterative prompting for high-fidelity results
+
+## 🔮 Future Directions
+GUI-based synthetic data lab
+
+Fine-tuned financial LLMs (e.g., FinGPT, FinBERT)
+
+Multivariate return generation
+
+RAG for dynamic financial prompting
+
+## 👥 Authors
+Charan Kumar Pathakamuri
+
+Darren Dcunha
