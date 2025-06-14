@@ -42,39 +42,39 @@ This project leverages `yfinance` for real data collection and GPT-powered gener
 
 ```plaintext
 Generate synthetic log returns for a high-risk crypto asset with extreme volatility and fat tails over a 60-day period.
-## 📁 Files & Metadata
-asset_metadata.csv – Asset sector, type, risk class
 
-synthetic_data_responses.csv – Generated log returns
-
-Presentation.pptx – Architecture, methodology, and visual diagnostics
 
 ## 📈 Use Cases
-Stress testing of new asset portfolios
 
-Bootstrapping data for ML models
+- **Stress Testing**: Evaluate new or illiquid portfolios under extreme market scenarios  
+- **ML Model Training**: Bootstrap synthetic data for training machine learning models  
+- **Strategic Scenario Planning**: Simulate user-defined asset behavior over time  
+- **Compliance-Friendly Prototyping**: Generate financial data without exposing sensitive records  
 
-Scenario analysis for strategic financial planning
-
-Safe generation of data for compliance-sensitive environments
+---
 
 ## 🚧 Limitations
-LLMs may struggle with accurate tail modeling
 
-No multivariate correlation across assets
+- ❗ LLMs may struggle with accurate **tail modeling**
+- 🔗 Currently lacks **multivariate correlation** between assets
+- ♻️ **Iterative prompting** needed to match statistical fidelity
 
-Requires iterative prompting for high-fidelity results
+---
 
 ## 🔮 Future Directions
-GUI-based synthetic data lab
 
-Fine-tuned financial LLMs (e.g., FinGPT, FinBERT)
+- 🧪 **GUI-based synthetic data lab** for interactive generation and testing
+- 🏦 **Fine-tuned financial LLMs** like `FinGPT` and `FinBERT` for improved contextual awareness
+- 📉 **Multivariate return generation** to model portfolio-level interactions
+- 🧵 **RAG pipelines** for prompt enrichment based on financial context
 
-Multivariate return generation
-
-RAG for dynamic financial prompting
+---
 
 ## 👥 Authors
-Charan Kumar Pathakamuri
 
-Darren Dcunha
+- **Charan Kumar Pathakamuri**  
+- **Darren Dcunha**
+
+---
+
+> 🚀 *Synthetic data complements real data—never replaces it. Use strategically to simulate risk and innovation in finance.*
